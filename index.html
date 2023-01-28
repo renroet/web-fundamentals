@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servers</title>
+</head>
+<body>
+
+    <form method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <input type="submit" value="submit">
+    </form>
+
+<!-- Part 1:
+HTTP is the standard protocol by which server requests are made
+A URL is the link that references the resource desired by the server
+DNS is the system by which websites are given a human-readable name. It references the IP address of the server hosting the site and the specific address to the resource. 
+A query string is the tag at the end of a GET request that invokes a search of the site.
+GET and POST are two HTTP verbs. GET requests information from the server. POST submits information to the server that changes the information stored on it.
+An HTTP request is a submission to a server for information regarding specific resources
+An HTTP response is what the browser returns from the HTTP request.
+An HTTP header is used to specify the data being sent to and from the server. Request header examples are: user-agent, accept-language, cache-control, connection, host, if-none-match. Response header examples are: accept-ranges, cache-control, connection, date, last-modified.
+A request is sent through your router to a local DNS server. The DNS server finds the IP address for the server associated with the site you are attempting to reach and send a request to it. The site server then processes the request and sends information back to your browser where you can access it. 
+
+Part 2: 
+Curl https://icanhazdadjoke.com (pirate??)
+Dig https://icanhazdadjoke.com - 2001:558:feed::1
+Python3 -m http.server -->
+
+    
+</body>
+</html>
